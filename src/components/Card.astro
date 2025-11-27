@@ -1,6 +1,6 @@
 ---
 import { Icon } from "astro-icon/components";
-const { timeframe, title, description, url, tags, url_name, location } =
+const { timeframe, org, title, description, url, tags, url_name, location } =
   Astro.props;
 ---
 
@@ -13,6 +13,12 @@ const { timeframe, title, description, url, tags, url_name, location } =
           <div class="flex items-center mt-2">
             <Icon name="carbon:location" class="w-4 h-4 mr-1" />
             <p class="text-sm  font-light text-secondary">{location}</p>
+          </div>
+        )}
+        {org && (
+          <div class="flex items-center mt-1">
+            <Icon name="carbon:building" class="w-4 h-4 mr-1" />
+            <p class="text-sm  font-light text-secondary">{org}</p>
           </div>
         )}
       </div>

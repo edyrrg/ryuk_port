@@ -26,7 +26,7 @@ const studies = Object.values(import.meta.glob("../pages/studies/*.md", { eager:
 const certificates = Object.values(import.meta.glob("../pages/certificates/*.md", { eager: true })) as MarkdownInstance[];
 const blogs = Object.values(import.meta.glob("../pages/blogs/*.md", { eager: true })) as MarkdownInstance[];
 const contact = Object.values(import.meta.glob("../pages/contact/*.md", { eager: true })) as MarkdownInstance[];
-const PDF = "/cv-20240219.pdf";
+const PDF = "/cv_edy_rojas.pdf";
 ---
 
 <div class="join join-vertical gap-1">
@@ -36,7 +36,7 @@ const PDF = "/cv-20240219.pdf";
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Work"} icon={"carbon:construction"}>
+  <AccordionLayout title={"Works"} icon={"carbon:construction"}>
     {
       works.map((item) => {
         return (
@@ -70,7 +70,7 @@ const PDF = "/cv-20240219.pdf";
       })
     }
   </AccordionLayout>
-
+  <!--
   <AccordionLayout title={"Projects"} icon={"carbon:tools"}>
     {
       projects.map((item) => {
@@ -87,13 +87,14 @@ const PDF = "/cv-20240219.pdf";
       })
     }
   </AccordionLayout>
-
+  -->
   <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
     {
       certificates.map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
+            org={item.frontmatter.org}
             timeframe={item.frontmatter.date}
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
@@ -104,7 +105,7 @@ const PDF = "/cv-20240219.pdf";
       })
     }
   </AccordionLayout>
-
+  <!--
   <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
     {
       blogs.map((item) => {
@@ -120,7 +121,7 @@ const PDF = "/cv-20240219.pdf";
       })
     }
   </AccordionLayout>
-
+   -->
   <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
     <div class="flex justify-center w-full">
       <div

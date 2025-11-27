@@ -1,22 +1,20 @@
 ---
-title: Tactical Team Leader
-date: 1985 - 1990
-url: http://atawajof.dz/vonilzor
-location: Los Angeles, California
-org: Los Angeles County Sheriff's Department – SWAT Division
-tags:
-  [
-    "SWAT",
-    "Surveillance",
-    "Undercover Operations",
-    "Evidence Gathering",
-    "Case Solving",
-    "Interviewing Skills",
-  ]
+title: Jr. Implementation Specialist
+date: dic. 2022 - dic. 2023
+url: https://conversionaventa.com/
+location: Ciudad de Guatemala, Guatemala
+org: Conversión a Venta
+tags: [
+    "Automatización de Flujos",
+    "Mantenimiento de Sistemas",
+    "Soporte Técnico Especializado",
+    "Diagnóstico de Errores",
+    "Configuración CRM",
+    "Documentación Técnica"
+]
 ---
 
-- Led SWAT operations in high-risk situations, including hostage rescues, armed standoffs, and counter-terrorism missions.
-- Developed and implemented tactical plans tailored to specific scenarios, ensuring the safety of hostages, civilians, and law enforcement personnel.
-- Conducted specialized training for SWAT team members in firearms proficiency, close-quarters combat, tactical movement, and hostage negotiation.
-- Coordinated with local, state, and federal agencies to support joint operations and enhance interagency cooperation.
-- Provided expertise and assistance in the planning and execution of high-profile security details for visiting dignitaries, VIPs, and major events.
+* Resolví más de 100 tickets internos y de clientes relacionados con la configuración de CRM, flujos de trabajo y problemas de automatización.
+* Monitoreé y mantuve la integridad en flujos de automatización en tiempo real, asegurando un rendimiento consistente en herramientas como **Zapier y n8n**.
+* Diagnostiqué y corregí errores del sistema, reduciendo el tiempo de inactividad y la intervención manual en las operaciones diarias.
+* Apoyé a equipos internos con la documentación de flujos de trabajo y la capacitación de usuarios en las plataformas de automatización.

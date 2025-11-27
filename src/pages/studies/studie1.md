@@ -1,15 +1,18 @@
 ---
-title: Bachelor of Science in Criminal Justice
-location: University of California, Los Angeles (UCLA)
-url: http://foeberoz.gm/kuj
-institute: University of California
-date: 1970-1975
+title: Bachiller en Ciencia y Letras con Orientación en Computación
+location: Quetzaltenango, Guatemala
+url: https://iea.edu.gt/
+institute: Instituto de Estudios Avanzados de Occidente
+date: 2015 - 2016
 tags:
   [
-    "Criminal Justice",
-    "Law Enforcement",
-    "Legal Studies",
-    "Public Safety",
-    "Court System",
-  ]
+  "Ciencias Exactas",
+  "Fundamentos de Programación",
+  "Habilidades Lógico-Matemáticas",
+  "Análisis de Datos",
+  "Ofimática Avanzada",
+  "Conocimientos de Hardware",
+  "Pensamiento Crítico",
+  "Comunicación Escrita"
+]
 ---
